@@ -131,7 +131,7 @@ label {
   justify-content: space-between;
   border-bottom: 1px solid var(--border-color);
   position: relative;
-  z-index: 3;
+  z-index: 4;
 }
 
 .header.active .header__link {
