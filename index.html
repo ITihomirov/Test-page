@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт и дизайн</title>
+    <link rel="stylesheet" href="/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" class="header__contact-link left desktop">
+            <img src="/img/map.svg" alt="Map">
+        </a>
+        <nav class="header__link-wrapper">
+            <a href="/index.html" class="header__link">Главная</a>
+            <a href="/about" class="header__link">О компании</a>
+            <a href="/services" class="header__link">Услуги</a>
+        </nav>
+        <a href="/" class="header__logo">
+            <img src="/img/logo.svg" alt="Logo">
+        </a>
+        <nav class="header__link-wrapper">
+            <a href="/price" class="header__link">Цены</a>
+            <a href="/portfolio" class="header__link">Портфолио</a>
+            <a href="/contact" class="header__link">Контакты</a>
+        </nav>
+        <a href="tel:+123456789" class="header__contact-link right">
+            <img src="/img/phone.svg" alt="Phone">
+        </a>
+        <a href="/" class="header__contact-link mobile">
+            <img src="/img/map.svg" alt="Map">
+        </a>
+        <button class="header__burger-menu-button">
+            <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </button>
+        <div class="header__burger-menu">
+            <nav class="header__burger-menu-wrapper">
+                <a href="/" class="header__link">Главная</a>
+                <a href="/about" class="header__link">О компании</a>
+                <a href="/services" class="header__link">Услуги</a>
+                <a href="/price" class="header__link">Цены</a>
+                <a href="/portfolio" class="header__link">Портфолио</a>
+                <a href="/contact" class="header__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="hero-section__wrapper">
+            <h1 class="main-title hero-section__title hero-section__title-standard">Ремонт <span>и</span> дизайн <br> <span>в Москве и Московской области</span></h1>
+            <a href="#" class="main-button hero-section__button"><span>Оставить заявку</span></a>
+            <div class="hero-section__grid">
+                <img class="hero-section__grid-img" src="./img/hero.png" alt="Hero image">
+                <div class="hero-section__grid-wrapper">
+                    <div class="hero-section__grid-item first">
+                        <h1 class="main-title hero-section__grid-item-title">Услуги по ремонту <br> <span>в Москве и Московской области</span></h1>
+                        <h3 class="hero-section__grid-item-subtitle">Услуги по ремонту</h3>
+                        <p class="hero-section__grid-item-text">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                        <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                    </div>
+
+                    <img class="hero-section__grid-item-img first" src="./img/hero-2.png" alt="Hero image">
+
+                    <div class="hero-section__grid-item second">
+                        <h1 class="main-title hero-section__grid-item-title">Виды работ по ремонту <br> <span>в Москве и Московской области</span></h1>
+                        <h3 class="hero-section__grid-item-subtitle">Виды работ</h3>
+                        <p class="hero-section__grid-item-text">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                        <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                    </div>
+
+                    <img class="hero-section__grid-item-img second" src="./img/hero-3.png" alt="Hero image">
+
+                    <div class="hero-section__grid-item three">
+                        <h1 class="main-title hero-section__grid-item-title">Дизайн интерьера <br> <span>в Москве и Московской области</span></h1>
+                        <h3 class="hero-section__grid-item-subtitle">Дизайн интерьера</h3>
+                        <p class="hero-section__grid-item-text">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                        <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                    </div>
+
+                    <img class="hero-section__grid-item-img three" src="./img/hero-4.png" alt="Hero image">
+
+                    <div class="hero-section__grid-item four">
+                        <h1 class="main-title hero-section__grid-item-title">Ремонт помещений <br> <span>в Москве и Московской области</span></h1>
+                        <h3 class="hero-section__grid-item-subtitle">Ремонт помещений</h3>
+                        <p class="hero-section__grid-item-text">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                        <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                    </div>
+
+                    <img class="hero-section__grid-item-img four" src="./img/hero-5.png" alt="Hero image">
+                </div>
+                <a class="hero-section__grid-anchor-link" href="#grid-section__title">
+                    <img class="hero-section__grid-anchor-icon" src="./img/circle.svg" alt="Hero icon">
+                </a>
+            </div>
+
+            <div class="hero-section__grid-mobile">
+                <div class="swiper hero-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide first">
+                            <div class="swiper-slide-item">
+                                <h3>Услуги по ремонту</h3>
+                                <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                                <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                            </div>
+                           
+                        </div>
+                        <div class="swiper-slide second">
+                            <div class="swiper-slide-item">
+                            <h3>Виды работ</h3>
+                            <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                            <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                        </div>
+                        </div>
+                        <div class="swiper-slide three">
+                            <div class="swiper-slide-item">
+                            <h3>Дизайн интерьера</h3>
+                            <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                            <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                        </div>
+                        </div>
+                        <div class="swiper-slide four">
+                            <div class="swiper-slide-item">
+                            <h3>Ремонт помещений</h3>
+                            <p>С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                            <img src="./img/circle.svg" class="hero-section__grid-item-icon" alt="Hero icon">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="hero-pagination">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grid-section">
+        <div class="grid-section__wrapper">
+            <h2 class="main-title grid-section__title" id="grid-section__title">Примеры <span>выполненных</span> работ</h2>
+            <div class="grid-section__content">
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Новостройка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Новостройка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Вторичка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Вторичка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Новостройка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Вторичка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Вторичка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="grid-section__content-item">
+                    <span class="grid-section__content-item-text">Новостройка</span>
+                    <div class="grid-section__content-item-info">
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Сроки</p>
+                            <p class="grid-section__content-item-info-bold">4 - 5 дней</p>
+                        </div>
+                        <div class="grid-section__content-item-info-wrapper">
+                            <p class="grid-section__content-item-info-text">Стоимость</p>
+                            <p class="grid-section__content-item-info-bold">Нет данных</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button class="main-button grid-section__button">
+                <span>Все проекты</span>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__main">
+            <h2 class="main-title">Связаться <span>с нами</span></h2>
+            <div class="footer__main-grid">
+                <div class="footer__main-grid-column">
+                    <div class="footer__main-grid-column-item">
+                        <p class="footer__main-grid-subtitle">Офис</p>
+                        <p class="footer__main-grid-subtitle-text">Москва, ул. Уличная, д. 1, оф. 1</p>
+                    </div>
+                    <div class="footer__main-grid-column-item">
+                        <p class="footer__main-grid-subtitle">E-mail</p>
+                        <p class="footer__main-grid-subtitle-text">company@company.ru</p>
+                    </div>
+                    <div class="footer__main-grid-column-item">
+                        <p class="footer__main-grid-subtitle">Социальные сети</p>
+                        <div class="footer__main-grid-column-social">
+                            <a href="#"><img src="./img/social.svg" alt="Social link"></a>
+                            <a href="#"><img src="./img/social.svg" alt="Social link"></a>
+                            <a href="#"><img src="./img/social.svg" alt="Social link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__main-grid-column">
+                    <div class="footer__main-grid-column-item">
+                        <p class="footer__main-grid-subtitle">Режим работы</p>
+                        <p class="footer__main-grid-subtitle-text">Пн-Вт: 10<sup>00</sup> — 19<sup>00</sup>; Сб-Вс:
+                            10<sup>00</sup> — 15<sup>00</sup></p>
+                    </div>
+                    <div class="footer__main-grid-column-item">
+                        <p class="footer__main-grid-subtitle">Телефон</p>
+                        <a class="footer__main-grid-subtitle-text" href="tel:8 (800) 900-00-00">8 (800) 900-00-00</a>
+                    </div>
+                </div>
+                <div class="footer__main-grid-column">
+                    <p class="footer__main-grid-subtitle">Остались вопросы?</p>
+                    <form action="" method="get">
+                        <div class="form-item">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" required placeholder="Иван Иванов" id="name" name="name" class="form-input">
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Телефон / E-mail</label>
+                            <input type="email" required placeholder="example@example.com" id="email" name="email"
+                                class="form-input">
+                        </div>
+                        <div class="form-item">
+                            <label for="text">Ваше сообщение</label>
+                            <div class="form-item-with-file">
+                                <input type="text" placeholder="Текст обращения" name="text" id="text" class="form-input">
+                                <div class="input__wrapper">
+                                    <input name="file" type="file" id="input__file"
+                                        class="input input__file from-file-input" multiple>
+                                    <label for="input__file" class="input__file-button">
+                                        <span class="input__file-icon-wrapper"><img src="./img/file.svg"
+                                                alt="File"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="form-policy">Нажимая на кнопку «Получить консультацию», вы соглашаетесь <br> на <a
+                                href="#">обработку персональных данных</a></p>
+                        <button type="submit" class="main-button"><span>Получить консультацию</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text"><span>© 2022 Сompany.</span> Соглашение об обработке персональных данных и
+                политика конфиденциальности</p>
+            <p class="footer__copyright-text">Сделано в <a href="#">Palladiumlab</a></p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
